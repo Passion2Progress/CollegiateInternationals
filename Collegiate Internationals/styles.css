@@ -1,0 +1,149 @@
+/* GLobal */
+
+body{
+	font: 15px/1.5 Arial, Helvetica, sans-serif;
+	/*font-family: Arial, Helvetica, sans-serif;*/
+	/*font-size: 15px;*/
+	/*line-height: 1.5;*/
+	padding: 0;
+	margin: 0;
+	background-color: #f4f4f4;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#landing {
+	margin: auto;
+	margin-left: 3%;
+	text-align: center;
+	margin-top: .5%;
+	margin-bottom: 1%;
+}
+
+#landing-img {
+	max-height: 712px;
+}
+
+/* Header */
+
+header #logo {
+	max-height: 100px;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+
+header {
+	background: #2B4E7C;
+	color: #FFF;
+	padding-top: 5px;
+	min-height: 60px;
+}
+
+header a {
+	color: #fff;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+}
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 0px 0 40px; 
+}
+
+header #branding {
+	float: left;
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	margin-top: 3.5%;
+	float: right;
+}
+
+header .highlight, header .current a {
+	color: #6BC381;
+
+}
+
+header a:hover {
+	color: #6BC381;
+}
+
+/* About */
+
+#about-head{
+	background-image: url("placeholder.png");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center;
+	margin: auto;
+	padding-top: 5%;
+	text-align: center;
+	padding-bottom: 3%;
+}
+
+#about-h1 {
+	font-size: 800%;
+	color: #FFF;
+}
+
+#about-hr {
+	width: 45%;
+	margin-bottom: 3%;
+	border-bottom: 1px solid black;
+	box-shadow: 0 20px 20px -20px #333;
+}
+
+#about-sub {
+	color: #fff;
+	margin-bottom: 10%;
+}
+
+#more-butt {
+	display: inline;
+	margin-right: 40%;
+}
+
+#more {
+	font-size: 250%;
+	color: #FFF;
+}
+
+#team-butt {
+	display: inline;
+	background-color: transparent;
+}
+
+#team {
+	font-size: 250%;
+	color: #FFF
+}
+
+button#more{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    padding: 1% 5% 1% 5%;
+    border-radius: 50px 50px 50px 0px;
+    font-weight: 500;
+}
+
+button#team{
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: 3px solid black;
+    padding: 1% 5% 1% 5%;
+    border-radius: 50px 50px 0px 50px;
+    font-weight: 500;
+}
