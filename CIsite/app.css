@@ -1,0 +1,15 @@
+.events {
+    background-color: #445880;
+    width: 1920px;
+    height: 1080px;
+}
+
+#eventsHeader {
+    text-align: center;
+    margin-right: 10em;
+}
+
+#eventsimage {
+    width: 30%;
+    height: 10%;
+}
