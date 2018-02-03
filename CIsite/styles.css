@@ -29,7 +29,9 @@ body{
 }
 
 .lead {
-	font-size: 24pt;
+	font-size: 5em;
+	margin: auto;
+	text-align: center;	
 }
 
 .background-blue { background: #305481; }
@@ -204,20 +206,24 @@ button#team{
 	font-size: 400%;
 	color: #FFF;
 	font-weight: bold;
+	text-align: center;
 }
 
 #contact-sub {
 	color: #fff;
 	margin: auto;
 	margin-bottom: 10%;
+	text-align: center;
 }
 
 .social-head {
 	color: #FFF;
+	text-align: center;
 }
 
 .social-sub {
 	color: #FFF;
+	text-align: center;
 }
 
 /* Social */
@@ -225,6 +231,8 @@ button#team{
 #social a {
 	text-decoration: none;
 	display: inline;
+	text-align: center;
+
 }
 
 #social li {
@@ -239,10 +247,14 @@ button#team{
 	max-width: 60px;
 	margin: auto;
 	display: inline-block;
+	text-align: center;
+
 }
 
 #social {
 	margin: auto;
+	text-align: center;
+
 }
 
 /* Universities */
@@ -252,8 +264,8 @@ button#team{
 }
 
 .member-schools {
-	min-height: 15%;
-	max-height: 15%;
+	min-height: 50%;
+	max-height: 50%;
 	min-width: 33.333%;
 	max-width: 33.333%;
 	border: 1px solid gray;
@@ -270,6 +282,9 @@ button#team{
 	display: grid;
 	grid-template-columns: auto auto auto auto auto auto;
 	background-color: rgb(105, 152, 190);
+	grid-auto-columns: 25%;
+	grid-auto-rows: 12em;
+
 	grid-gap: 1px;
 	padding: 10px;
   }
@@ -282,78 +297,6 @@ button#team{
   .item1 {
 	grid-column: 1 / 5;
   }
-
-/* .school-1 {
-	min-height: 10%;
-	max-height: 10%;
-	min-width: 33.333%;
-	max-width: 33.333%;
-	border: 1px solid gray;
-	margin: 0;
-	float: left;
-	position: absolute;
-	right: 66.68%;
-	top: 60.88%;
-}
-
-.school-2 {
-	min-height: 10%;
-	max-height: 10%;
-	min-width: 33.333%;
-	max-width: 33.333%;
-	border: 1px solid gray;
-	margin: 0;
-	float: left;
-	position: absolute;
-	right: 66.68%;
-	top: 89.14%;
-}
-
-.school-3 {
-	min-height: 248px;
-	max-height: 248px;
-	min-width: 33.333%;
-	max-width: 33.333%;
-	border: 1px solid gray;
-	margin: 0;
-	float: right;
-}
-
-.school-4 {
-	min-height: 248px;
-	max-height: 248px;
-	min-width: 33.333%;
-	max-width: 33.333%;
-	border: 1px solid gray;
-	float: left;
-}
-
-.school-5 {
-	min-height: 488px;
-	max-height: 488px;
-	min-width: 22.2%;
-	max-width: 22.2%;
-	border: 1px solid gray;
-	float: left;
-}
-
-.school-6 {
-	min-height: 488px;
-	max-height: 488px;
-	min-width: 22.2%;
-	max-width: 22.2%;
-	border: 1px solid gray;
-	float: left;
-}
-
-.more-schools {
-	min-height: 488px;
-	max-height: 488px;
-	min-width: 22.26%;
-	max-width: 22.26%;
-	border: 1px solid gray;
-	float: left;
-} */
 
 /* Max width is 1520 */
 
