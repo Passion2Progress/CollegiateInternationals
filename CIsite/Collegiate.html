@@ -12,6 +12,10 @@
 <!-- CSS from scratch -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 
+<!-- MetroUI -->
+    <link href="metro.css" rel="stylesheet">
+	<script src="metro.js"></script>	
+	
 <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
@@ -19,9 +23,9 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
 
 </head>
-<body>
-<header>
-		<div class="container">
+<body class="background-blue">
+<header class="background-blue">
+		<div class="container background-blue">
 			<div id="branding">
 				<img id="logo" src="logo.png">
 			</div>
@@ -77,53 +81,338 @@
 <div id="uni-full">
 	<h1 class="lead">Member Universities</h1>
 
-	<div class="grid-container">
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-		<div class="grid-item"></div>
-	</div>
+<div class="tile-container">
+<div class="tile-area fg-white tile-area-scheme" style="height: 100%; max-height: 100% !important; width: 1920px;">
+
+            <div class="tile-container">
+
+                <a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+                    <div class="tile-content iconic">
+							<div class="padding10">
+									<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+									<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+									<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+									<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+								</div>
+                    </div>
+                </a>
+
+                <div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+                    <div class="tile-content iconic">
+							<div class="padding10">
+									<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+									<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+									<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+									<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+								</div>
+                    </div>
+				</div>
+				
+				<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+					</a>
+	
+					<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+					</div>
+
+				<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+						</a>
+		
+						<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+				</div>
+
+				<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+					</a>
+	
+					<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+				</div>
+				<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+				</div>
+            </div>
+   
+
+            <div class="tile-container">
+
+					<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+					</a>
+	
+					<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+						<div class="tile-content iconic">
+								<div class="padding10">
+										<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+										<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+										<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+										<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+									</div>
+						</div>
+					</div>
+					
+					<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+						</a>
+		
+						<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+						</div>
+	
+					<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+							</a>
+			
+							<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+					</div>
+	
+					<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+						</a>
+		
+						<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+					</div>
+					<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+					</div>
+				</div>
+	  
+				<div class="tile-container">
+
+						<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+						</a>
+		
+						<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+							<div class="tile-content iconic">
+									<div class="padding10">
+											<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+											<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+											<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+											<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+										</div>
+							</div>
+						</div>
+						
+						<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+							</a>
+			
+							<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+							</div>
+		
+						<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+									<div class="tile-content iconic">
+											<div class="padding10">
+													<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+													<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+													<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+													<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+												</div>
+									</div>
+								</a>
+				
+								<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+									<div class="tile-content iconic">
+											<div class="padding10">
+													<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+													<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+													<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+													<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+												</div>
+									</div>
+						</div>
+		
+						<a href="#" class="tile bg-indigo fg-white" data-role="tile" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span> </p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+							</a>
+			
+							<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+						</div>
+						<div class="tile bg-darkBlue fg-white" data-role="tile" onclick="" style="opacity: 1; transform: scale(1); transition: all 0.3s ease 0s;">
+								<div class="tile-content iconic">
+										<div class="padding10">
+												<p class="no-margin text-shadow">UNI: <span class="text-bold" id="pressure"></span></p>
+												<p class="no-margin text-shadow">Address: <span class="text-bold" id="ozone"></span></p>
+												<p class="no-margin text-shadow">Phone: <span class="text-bold" id="wind_bearing"></span></p>
+												<p class="no-margin text-shadow">Something: <span class="text-bold" id="wind_speed"></span></p>
+											</div>
+								</div>
+						</div>
+					</div>
+			
+		
+    </div>
+
+    </div>
 </div>
+
 <!-- Univerities End -->
 
-<section style="background-color:blueviolet">
-		<div class="container">
+<section class="background-blue">
+		<div class="container" id="contact-head">
 			<h1 id="contact-h1">Contact Us</h1>
-			<h2 id="contact-sub">email:info@collegiateinternationals.com</h2>
-		</div>
-
-		<div>
-			<h5 class="social-head">stay in touch</h5>
-			<h6 class="social-sub">follow us, like us, stay updated.</h6>
+			<a href="mailto:info@collegiateinternationals.com?"><h2 id="contact-sub">Email: info@collegiateinternationals.com</h2></a>
+			<h6 class="social-sub">Follow us, Like us, Stay updated.</h6>
 				<div>
 					<ul id="social">
-						<li><a href="#"><img src="circle.png"></a></li>
-						<li><a href="#"><img src="circle.png"></a></li>
-						<li><a href="#"><img src="circle.png"></a></li>
-						<li><a href="#"><img src="circle.png"></a></li>
+						<li><a href="#"><img src="facebook.png"></a></li>
+						<li><a href="#"><img src="twitter.png"></a></li>
+						<li><a href="#"><img src="instagram.png"></a></li>
+						<li><a href="#"><img src="linkedin.png"></a></li>
 					</ul>
 				</div>
-				<br>
 		</div>
 	</div>
 </section>
 <!-- Contact End -->
-
-
 
 
 <!-- Footer -->
@@ -148,7 +437,7 @@
 
 <!-- /.modal --><!-- Bootstrap core JavaScript -->
 <script src="jquery-latest.js"></script>
-<script type="text/javascript" src="jquery.download"></script>
+<!-- <script type="text/javascript" src="jquery.download"></script> -->
 <script type="text/javascript" src="script.js"></script>
 <script type="text/javascript" src="bootstrap.js"></script>
 

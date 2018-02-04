@@ -29,9 +29,11 @@ body{
 }
 
 .lead {
-	font-size: 5em;
+	font-size: 800%;
 	margin: auto;
-	text-align: center;	
+	text-align: center;
+	color: white;
+	font-weight: bold;
 }
 
 .background-blue { background: #305481; }
@@ -44,7 +46,7 @@ header #logo {
 }
 
 header {
-	background: #2B4E7C;
+	background: #305481;
 	color: #FFF;
 	padding-top: 5px;
 	min-height: 60px;
@@ -88,7 +90,6 @@ header a:hover {
 /* About */
 
 #about-head{
-	background-image: url("placeholder.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -190,16 +191,15 @@ button#team{
 /* Contact */
 
 #contact-head{
-	background-image: url("placeholder.png");
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
 	margin: auto;
-	padding-top: 5%;
+	padding-top: 2%;
 	text-align: center;
-	padding-bottom: 11.5%;
+	padding-bottom: 2%;
 }
 
 #contact-h1 {
@@ -212,7 +212,7 @@ button#team{
 #contact-sub {
 	color: #fff;
 	margin: auto;
-	margin-bottom: 10%;
+	/* margin-bottom: 10%; */
 	text-align: center;
 }
 
@@ -272,6 +272,7 @@ button#team{
 	margin: 0;
 	float: left;
 }
+
 
 .uni {
 	max-height: 100%;
@@ -334,4 +335,51 @@ footer li {
 footer p {
 	display: inline-block;
 	color: #FFF;
+}
+
+
+
+/* Metro ui */
+.tile-area-controls {
+	position: fixed;
+	right: 40px;
+	top: 40px;
+}
+
+.tile-group {
+	left: 100px;
+}
+
+.tile, .tile-small, .tile-sqaure, .tile-wide, .tile-large, .tile-big, .tile-super {
+	opacity: 0;
+	-webkit-transform: scale(.8);
+	transform: scale(.8);
+}
+
+#charmSettings .button {
+	margin: 5px;
+}
+
+.schemeButtons {
+	/* width: 300px; */
+}
+
+@media screen and (max-width: 640px) {
+	.tile-area {
+		overflow-y: scroll;
+	}
+	.tile-area-controls {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	.tile-area {
+		overflow-y: scroll;
+	}
+
+	.tile-area-controls {
+		display: none;
+	}
+
 }
