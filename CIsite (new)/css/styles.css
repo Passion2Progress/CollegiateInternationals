@@ -16,6 +16,10 @@ body{
 	overflow: hidden;
 }
 
+.test {
+	color: black;
+}
+
 #landing {
 	margin: auto;
 	padding-left: 3%;
