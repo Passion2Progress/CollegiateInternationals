@@ -6,13 +6,13 @@ body{
 	/*font-size: 15px;*/
 	/*line-height: 1.5;*/
 	padding: 0;
-	margin: 0;
+	margin: 0 auto;
 	background-color: #f4f4f4;
 }
 
 .container {
 	width: 90%;
-	margin: auto;
+	margin:0 auto;
 	overflow: hidden;
 }
 
@@ -54,16 +54,15 @@ body{
 /* Header */
 
 header #logo {
-	max-height: 100px;
+	max-height: 75px;
 	margin-top: 10%;
 	margin-bottom: 10%;
 }
 
-header {
+header .container {
 	background: #305481;
 	color: #FFF;
-	padding-top: 5px;
-	min-height: 60px;
+	/*max-height: 30px;*/
 }
 
 header a {
