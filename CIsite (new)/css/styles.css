@@ -153,6 +153,46 @@ header a:hover {
 	margin-bottom: 6%;
 }
 
+/* Unitar */
+
+#unitar-head{
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: left top;
+	margin: auto;
+	padding-top: 5%;
+	text-align: center;
+	padding-bottom: 1%;
+}
+
+#unitar-h1 {
+	font-size: 700%;
+	color: #FFF;
+	text-shadow: 2px 2px 6px #000;
+	text-align: center;
+}
+
+#unitar-hr {
+	width: 45%;
+	margin-bottom: 3%;
+	border-bottom: 1px solid black;
+	box-shadow: 0 20px 20px -20px #000;
+	text-shadow: 2px 2px 4px #000;
+}
+
+#unitar-sub {
+	color: #fff;
+	margin-bottom: 10%;
+	font-size: 215%;
+	text-shadow: 2px 2px 6px #000;
+	width: 80%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 6%;
+}
+
 #buttons {
 	margin-bottom: 6%;
 }
