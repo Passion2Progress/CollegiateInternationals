@@ -290,9 +290,12 @@ button#team{
 	text-align: center;
 }
 
+#membership-a:hover {
+	text-decoration: none;
+}
+
 #membership-hr {
 	width: 45%;
-	margin-bottom: 3%;
 	border-bottom: 1px solid black;
 	box-shadow: 0 20px 20px -20px #333;
 }
@@ -301,9 +304,122 @@ button#team{
 	color: #fff;
 	margin-bottom: 10%;
 	font-size: 215%;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 3%;
+	text-shadow: 2px 2px 6px #000;
 }
 
 /* Membership */
+
+/* Membership INFO */
+
+#membership-background {
+	background: url("./pics/Church.jpg");
+	background-position: center;
+	background-size: cover;
+	padding-bottom: 12.5%;
+}
+
+.membership {
+	margin: auto;
+	text-align: center;
+}
+
+.membership-header {
+	text-align: center;
+	font-size: 500%;
+	color: #305481;
+}
+
+#member-line {
+	text-align: center;
+	border: 2px solid red;
+	width: 100%;
+}
+
+.memb-text {
+	color: #305481;
+	font-size: 125%;
+}
+
+.membership-header-sub {
+	text-align: center;
+	font-size: 450%;
+	color: #305481;
+	font-weight: bold;
+}
+
+.membership-header-mission {
+	text-align: right;
+	font-size: 300%;
+	margin-right: 20%;
+}
+
+.membership-top-sub {
+	width: 70%;
+	margin: auto;
+	text-align: center;
+	padding-bottom: 2%;
+	font-size: 150%;
+	padding-top: 2%;
+}
+
+.membership-sub-right {
+	width: 50%;
+	margin: auto;
+	float: right;
+	font-size: 150%;
+	padding-top: 2%;
+}
+
+.membership-sub-left {
+	width: 50%;
+	margin: auto;
+	float: left;
+	font-size: 150%;
+	padding-top: 2%;
+}
+
+.membership-sub {
+	width: 60%;
+	margin-top: 2%;
+}
+
+.membership-logo-sub {
+	width: 55%;
+}
+
+.memb-letter {
+	border: 1px solid black;
+	padding: 6px 6px 0px 6px;
+}
+
+#membership-mission {
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.membership-img-right {
+	float: right;
+	max-width: 150px;
+	max-height: 150px;
+	min-width: 150px;
+	min-height: 150px;
+	margin: auto;
+}
+
+.membership-img-left {
+	float: left;
+	max-width: 150px;
+	max-height: 150px;
+	min-width: 150px;
+	min-height: 150px;
+	margin: auto;
+}
+
+/* Membership INFO End*/
 
 /* Contact */
 
