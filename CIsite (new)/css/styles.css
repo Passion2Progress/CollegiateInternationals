@@ -621,6 +621,104 @@ footer p {
 	/* width: 300px; */
 }
 
+/* SDG */
+
+.sdg-color {
+	background-color: #c52333;
+	padding: 1%;
+}
+
+.sdg-title {
+	text-align: left;
+	font-size: 500%;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: white;
+}
+
+.sdg-header-sub {
+	text-align: left;
+	font-size: 250%;
+	color: white;
+	font-weight: lighter;
+	font-family: 'Oswald', sans-serif;
+	margin-top: 0;
+
+}
+
+.sdg-img {
+	float: right; 
+	display: inline-block;
+	margin: auto;
+}
+
+#sdg-line {
+	text-align: center;
+	border: 2px solid red;
+	width: 100%;
+}
+
+#sdg-sub {
+	color: #fff;
+	margin-bottom: 10%;
+	font-size: 215%;
+	width: 70%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 3%;
+	text-shadow: 2px 2px 6px #000;
+}
+
+.sdg {
+	margin: auto;
+	text-align: center;
+}
+
+.sdg-sum {
+	color: #666;
+	font-size: 100%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.sdg-cap {
+	color: #666;
+	font-size: 125%;
+	font-weight: 800;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+}
+
+.sdg-text {
+	color: #666;
+	font-size: 100%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.sdg-list {
+	color: #666;
+	font-size: 90%;
+	font-family: 'Noto Sans', sans-serif;
+}
+
+.sdg-sub-left {
+	float: left;
+	font-size: 150%;
+	padding-top: 2%;
+	margin: auto;
+}
+
+#sdg-mission {
+	padding-top: 1%;
+	padding-bottom: 2%;
+}
+
+.lighter {
+	font-weight: lighter;
+}
+
+/* */
+
 @media screen and (max-width: 640px) {
 	.tile-area {
 		overflow-y: scroll;
