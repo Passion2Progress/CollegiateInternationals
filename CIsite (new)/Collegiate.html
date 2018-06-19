@@ -7,6 +7,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
+	<!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+
 	<!-- Bootstrap -->
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -36,7 +40,13 @@
 
 <body class="background-blue">
 	<header class="background-blue">
-		<div class="container">
+		<div class="container" >
+				<div id="branding">
+					<a href="#landing"><img id="logo" width="50" height="100" src="images/logo.svg"></a>	
+				</div>
+				<div>
+					<p id="brand-text">Collegiate Internationals</p>
+				</div>
 			<nav class="navbar navbar-default" id="navbar-example" role="navigation">
 				<div>
 					<div class="navbar-header">
@@ -50,25 +60,20 @@
 					<div class="collapse navbar-collapse navbar-ex1-collapse background-blue">
 						<ul class="nav navbar-nav" style="height: 0px;">
 							<li>
-								<div id="branding">
-									<a href="#landing"><img id="logo" src="images/logo.png"></a>
-								</div>
-							</li>
-							<li>
-								<a href="#about-h1">About</a>
+								<a href="#about-h1" class="type">About</a>
 							</li>
 							<!-- <li><a href="#events">Events</a></li> -->
 							<!-- <li>
 								<a href="#uni-full">Universities</a>
 							</li> -->
 							<li>
-								<a href="#membership-head">Membership</a>
+								<a class="type" href="#membership-head">Membership</a>
 							</li>
 							<li>
-								<a href="#contact-head">Contact Us</a>
+								<a class="type" href="#contact-head">Contact Us</a>
 							</li>
 							<li>
-								<a href="#unitar-head">Unitar</a>
+								<a class="type" href="#unitar-head">Unitar</a>
 							</li>
 						</ul>
 					</div>

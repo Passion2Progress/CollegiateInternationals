@@ -1,5 +1,14 @@
 /* GLobal */
 
+@font-face {
+    font-family: "Old English Text MT (TrueType)"; 
+    src: url(./Metro-UI-CSS-master/fonts/"OLDENGL.ttf");
+}
+
+h2 {
+    font-family: yourfontname;
+}
+
 body{
 	font: 15px/1.5 Arial, Helvetica, sans-serif;
 	/*font-family: Arial, Helvetica, sans-serif;*/
@@ -68,7 +77,7 @@ header {
 	position: fixed;
 	z-index: 1;
 	min-width: 100vw;
-	border-bottom: 20px solid #2b3747;
+	border-bottom: 6px solid #2b3747;
 }
 
 header a {
@@ -94,6 +103,14 @@ header li {
 
 header #branding {
 	float: left;
+}
+
+header #brand-text {
+	position: absolute; 
+	left: 450px; 
+	top: 5px; 
+	font-size: 40px; 
+	font-family: Old English Text MT;
 }
 
 header #branding h1 {
@@ -733,6 +750,13 @@ footer p {
 .lighter {
 	font-weight: lighter;
 }
+
+.type {
+	font-family: "Oswald", sans-serif;
+	font-weight: 800;
+
+}
+
 
 /* */
 
