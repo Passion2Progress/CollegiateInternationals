@@ -628,6 +628,21 @@ footer p {
 	padding: 1%;
 }
 
+.sdg-color-16 {
+	background-color: #01558b;
+	padding: 1%;
+}
+
+.sdg-color-5 {
+	background-color: #ec4135;
+	padding: 1%;
+}
+
+.sdg-color-11 {
+	background-color: #f79c39;
+	padding: 1%;
+}
+
 .sdg-title {
 	text-align: left;
 	font-size: 500%;
@@ -649,7 +664,7 @@ footer p {
 
 .sdg-img {
 	float: right; 
-	display: inline-block;
+	display: block;
 	margin: auto;
 }
 
@@ -693,6 +708,7 @@ footer p {
 	color: #666;
 	font-size: 100%;
 	font-family: 'Noto Sans', sans-serif;
+
 }
 
 .sdg-list {
@@ -706,6 +722,7 @@ footer p {
 	font-size: 150%;
 	padding-top: 2%;
 	margin: auto;
+	width: 97%;
 }
 
 #sdg-mission {
