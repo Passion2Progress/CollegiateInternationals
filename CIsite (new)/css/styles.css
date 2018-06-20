@@ -257,6 +257,11 @@ header a:hover {
 	color: #FFF
 }
 
+#pay {
+	font-size: 250%;
+	color: #FFF
+}
+
 button#more{
     background-color: rgba(61,85,127,0.8);
     background-repeat: no-repeat;
@@ -271,6 +276,14 @@ button#team{
     border: 3px solid #fff;
     padding: 1% 5% 1% 5%;
     border-radius: 50px 50px 50px 50px;
+}
+
+button#pay {
+	background-color: rgba(61,85,127,0.8);
+    background-repeat: no-repeat;
+    border: 3px solid #fff;
+    padding: 1% 5% 1% 5%;
+    border-radius: 50px 50px 0px 50px;
 }
 
 button#event-catalog {
