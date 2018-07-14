@@ -910,3 +910,13 @@ footer p {
     -o-background-size: cover;
     background-size: cover;
 }
+
+/* Map */
+
+#map-title {
+	font-family: "Old English Text MT";
+	text-align: center; 
+	margin: auto; 
+	font-weight: bold; 
+	font-size: 100px;
+}
