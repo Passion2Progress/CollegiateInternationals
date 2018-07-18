@@ -66,8 +66,7 @@ body{
 
 header #logo {
 	max-height: 45px;
-	margin-top: 10%;
-	margin-bottom: 10%;
+	margin-top: 1%;
 }
 
 header {
@@ -104,13 +103,13 @@ header li {
 
 header #branding {
 	float: left;
+    margin: 0;
 }
 
 header #brand-text {
-	position: absolute; 
-	left: 450px; 
-	top: 5px; 
-	font-size: 40px; 
+    float: right;
+    margin: auto;
+    font-size: 40px;
 	font-family: Old English Text MT;
 }
 
