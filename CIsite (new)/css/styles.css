@@ -920,3 +920,25 @@ footer p {
 	font-weight: bold; 
 	font-size: 100px;
 }
+#world {
+    text-align:center; 
+    width: 80.0%; 
+    display:block; 
+    margin:auto;
+}
+
+#new-york {
+    position: absolute; 
+    width: 12vw; 
+    height: 10vw; 
+    top: 14vw; 
+    left: 20vw;
+}
+
+#paris {
+    position: absolute; 
+    width: 12vw; 
+    height: 10vw; 
+    top: 11vw; 
+    left: 45vw;
+}
