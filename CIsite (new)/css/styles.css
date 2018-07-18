@@ -96,11 +96,6 @@ header ul{
 	border: none;
 }
 
-header li {
-	display: inline;
-	padding: 0 0px 0 40px; 
-}
-
 header #branding {
 	float: left;
     margin: 0;
