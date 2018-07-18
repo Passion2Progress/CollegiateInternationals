@@ -392,6 +392,7 @@ button#event-catalog {
 	text-align: center;
 	font-size: 500%;
 	color: #305481;
+    font-family: "Oswald", sans-serif;
 }
 
 #member-line {
@@ -403,6 +404,7 @@ button#event-catalog {
 .memb-text {
 	color: #305481;
 	font-size: 125%;
+    font-family: 'Noto Sans', sans-serif;
 }
 
 .membership-header-sub {
@@ -410,6 +412,7 @@ button#event-catalog {
 	font-size: 450%;
 	color: #305481;
 	font-weight: bold;
+    font-family: "Oswald", sans-serif;
 }
 
 .membership-header-mission {
@@ -975,4 +978,47 @@ footer p {
 
 #paris-tag:hover {
     opacity: 1;
+}
+
+.membership-img-left-stats {   
+	float: left;
+	max-width: 300px;
+	max-height: 125px;
+	min-width: 300px;
+	min-height: 125px;
+	margin: auto;
+}
+
+.team-mate-left {
+    float: left;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.team-mate-right {
+    float: right;
+    width: 50%;
+    margin: auto;
+    display: block;
+}
+
+.name-mate {
+    font-family: "Oswald", sans-serif;
+}
+
+.title-mate {
+     font-family: "Oswald", sans-serif;
+}
+
+.desc-mate {
+    font-family: "Nato-sans", sans-serif;
+    font-weight: bold;
+}
+
+.team-img {
+    width: 20vw;
+    height: 20vw;
+    border: 1vw solid #305481;
+
 }
