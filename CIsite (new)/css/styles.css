@@ -944,6 +944,7 @@ footer p {
 }
 
 #new-york-tag {
+    font-size: 2vw;
     position: absolute;
     top: 14vw;
     margin: 0;
@@ -962,6 +963,7 @@ footer p {
 }
 
 #paris-tag {
+    font-size: 2vw;
     position: absolute;
     top: 11vw; 
     left: 45vw;
