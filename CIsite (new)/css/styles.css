@@ -915,9 +915,10 @@ footer p {
 #map-title {
 	font-family: "Old English Text MT";
 	font-size: 6vw; 
+    margin: auto; 
     text-align: center;
-    width: 65%;
-    margin: 0;
+    width: 70%;
+    margin: 
 }
 #world {
     text-align:center; 
