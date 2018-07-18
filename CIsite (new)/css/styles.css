@@ -934,10 +934,47 @@ footer p {
     left: 20vw;
 }
 
+
 #paris {
     position: absolute; 
     width: 12vw; 
     height: 10vw; 
     top: 11vw; 
     left: 45vw;
+}
+
+#new-york-tag {
+    position: absolute;
+    top: 14vw;
+    margin: 0;
+    height: 10vw;
+    text-align: center;
+    width: 12vw;
+    left: 20vw;
+    font-family: "Oswald", sans-serif;
+    opacity: .2;
+    z-index: 1;
+    transition: 0.3s all ease;
+}
+
+#new-york-tag:hover {
+    opacity: 1;
+}
+
+#paris-tag {
+    position: absolute;
+    top: 11vw; 
+    left: 45vw;
+    margin: 0;
+    height: 10vw;
+    text-align: center;
+    width: 12vw;
+    font-family: "Oswald", sans-serif;
+    opacity: .2;
+    z-index: 1;
+    transition: 0.3s all ease;
+}
+
+#paris-tag:hover {
+    opacity: 1;
 }
