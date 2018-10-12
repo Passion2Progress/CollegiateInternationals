@@ -1022,3 +1022,15 @@ footer p {
     border: 1vw solid #305481;
 
 }
+
+/*Events*/
+
+.sdg-event-color {
+	background-color: #305481;
+	padding: 1%;
+}
+
+.event-poster {
+	margin: auto;
+	display: block;
+}
