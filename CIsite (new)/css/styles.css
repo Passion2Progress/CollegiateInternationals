@@ -1017,8 +1017,10 @@ footer p {
 }
 
 .team-img {
+	margin-top: 5%;
     width: 20vw;
-    height: 20vw;
+	height: 20vw;
+	object-fit:cover;
     border: 1vw solid #305481;
 
 }
