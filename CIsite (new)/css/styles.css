@@ -321,6 +321,18 @@ button#event-catalog {
 	width: 50%;
 }
 
+#registration-anchor {
+	text-decoration: none; 
+	color: white;
+}
+
+#registration-p {
+	text-align: center;
+}
+
+#registration-p:hover {
+	color: #C8C8C8; 
+}
 
 /* Membership */
 #membership-head{
